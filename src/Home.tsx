@@ -149,6 +149,7 @@ const Home = (props: HomeProps) => {
     (async () => {
       await updateBalance();
     })();
+    // eslint-disable-next-line
   }, [wallet, props.connection, tokenMint]);
 
   useEffect(() => {
